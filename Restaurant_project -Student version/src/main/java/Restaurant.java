@@ -17,16 +17,18 @@ public class Restaurant {
         this.closingTime = closingTime;
     }
 
-    public boolean isRestaurantOpen() {
-        getCurrentTime();
-        if(openingTime > LocalTime.now() < closingTime)
 			return true;
 		else return false;
     }
+    public boolean isRestaurantOpen() {
+	    //DELETE ABOVE STATEMENT AND WRITE CODE HERE
+        getCurrentTime();
+        if(openingTime > LocalTime.now() < closingTime)
 
     public LocalTime getCurrentTime(){ return  LocalTime.now(); }
 
     public List<Item> getMenu() {
+	    //DELETE ABOVE STATEMENT AND WRITE CODE HERE
         System.out.println(Item);
     }
 
